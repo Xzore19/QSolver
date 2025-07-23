@@ -1,0 +1,13 @@
+Quantum Constraint Solver with dreal
+gates list: ['ccz(2,1,0)']
+target probability: [[0, 2], [0, 2], ['00', '01']]
+flag: not_in
+Exploring.......................
+Genrated time: 0.023114442825317383
+Genrated time: 0.0451207160949707
+Genrated time: 0.04431438446044922
+quantum sat result:
+ [0j, (-0.29312714663859585+0.23872783340190518j), 0j, (-0.2395639241069671+0.23872783340190518j), (-0.2395639241069671+0.23872783340190523j), (-0.2395639241069671+0.23872783340190523j), (-0.2395639241069671+0.15202667955969873j), (-0.1358107688221425+0.6426452477973483j)]
+Assertion program has generated in assert_result/assertion_program_1.py
+Assertion SAT!!!!!!!
+Generated result number: 3

@@ -1,0 +1,12 @@
+Quantum Constraint Solver with dreal
+gates list: ['crx(0.39269908169872414,1,0)']
+target probability: [[0, 1], [0, 1], ['01']]
+flag: not_in
+Exploring.......................
+Genrated time: 0.06328392028808594
+Genrated time: 0.06389951705932617
+quantum sat result:
+ [(0.02690728758884124+0.06196656264988538j), (-0.21886959843646447+0.1593668371472025j), (-0.361601722520062+0.38048498608812087j), (-0.4135892369641359+0.4148953709101085j), (-1e-323-1e-323j), (-1e-323-1e-323j), (-0.013411183108672427+0.0012064579577023417j), (-0.39350319580121706+0.3852140973223921j)]
+Assertion program has generated in assert_result/assertion_program_1.py
+Assertion SAT!!!!!!!
+Generated result number: 2

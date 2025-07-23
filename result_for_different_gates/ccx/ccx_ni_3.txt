@@ -1,0 +1,13 @@
+Quantum Constraint Solver with dreal
+gates list: ['ccx(2,1,0)']
+target probability: [[0, 2], [0, 2], ['10', '11']]
+flag: not_in
+Exploring.......................
+Genrated time: 0.023008346557617188
+Genrated time: 0.039086341857910156
+Genrated time: 0.04262590408325195
+quantum sat result:
+ [(-0.2934193524176894+0.23903244483699118j), 0j, (-0.23959511499631458+0.23958208408374856j), 0j, (-0.23959511499631458+0.2395820840837485j), (-0.23959511499631458+0.2395820840837485j), (-0.23959511499631458+0.15326089066212392j), (-0.13531042323007914+0.6427422038093759j)]
+Assertion program has generated in assert_result/assertion_program_1.py
+Assertion SAT!!!!!!!
+Generated result number: 3

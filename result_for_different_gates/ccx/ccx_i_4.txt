@@ -1,0 +1,11 @@
+Quantum Constraint Solver with dreal
+gates list: ['ccx(3,2,1)']
+target probability: [[0, 1], [0, 1], ['01', '11']]
+flag: in
+Exploring.......................
+Genrated time: 0.06834840774536133
+quantum sat result:
+ [0j, 0j, 0j, 0j, 0j, 0j, 0j, 0j, (0.19031101947068943-0.22898291893194253j), (0.2603366985714192-0.2990109136763333j), (0.3408170311942116-0.39244578730821217j), (0.4588156246372361-0.5229258503100167j), 0j, 0j, 0j, 0j]
+Assertion program has generated in assert_result/assertion_program_1.py
+Assertion SAT!!!!!!!
+Generated result number: 1
