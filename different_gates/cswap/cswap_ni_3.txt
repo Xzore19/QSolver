@@ -1,0 +1,3 @@
+gates : [cswap(2, 1, 0)]
+target_prob : [[0, 1, 2], [0, 1, 2], ['001', '101']]
+flag : "not_in"

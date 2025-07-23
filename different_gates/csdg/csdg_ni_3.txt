@@ -1,0 +1,3 @@
+gates : [csdg(1, 0)]
+target_prob : [[0, 1, 2], [0, 1, 2], ['011']]
+flag : "not_in"
