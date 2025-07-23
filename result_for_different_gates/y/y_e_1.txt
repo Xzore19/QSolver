@@ -1,0 +1,11 @@
+Quantum Constraint Solver with dreal
+gates list: ['y(0)']
+target probability: [0.15789473684210525, 0.8421052631578947]
+flag: ==
+Exploring.......................
+Genrated time: 0.012365579605102539
+quantum sat result:
+ [(0.5960395606792698-0.6977407149243606j), (-0.3450151006331243+0.197127667203821j)]
+Assertion program has generated in assert_result/assertion_program_1.py
+Assertion SAT!!!!!!!
+Generated result number: 1
