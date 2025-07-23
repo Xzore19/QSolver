@@ -57,7 +57,7 @@ Alternatively, make the shell script `install.sh` executable and run it:
 
     The SMT file is recorded in test/temp_file/constraint.smt2
 
-    The assertion program is recorded in assert_result/assertion_program_1.py
+    The assertion program is recorded in assert_result/assertion_program_1_i.py
 
 ## Hyperparameter
 
