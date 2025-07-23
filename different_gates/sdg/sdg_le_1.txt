@@ -1,0 +1,3 @@
+gates : [sdg(0)]
+target_prob : [[1, 0.3049]]
+flag : "<"

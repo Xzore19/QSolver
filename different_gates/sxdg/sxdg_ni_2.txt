@@ -1,0 +1,3 @@
+gates : [sxdg(0)]
+target_prob : [[1], [1], ['1']]
+flag : "not_in"

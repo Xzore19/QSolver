@@ -1,0 +1,3 @@
+gates : [swap(1, 0)]
+target_prob : [[1, 2], [1, 2], ['00', '01']]
+flag : "in"
