@@ -1,0 +1,15 @@
+Quantum Constraint Solver with dreal
+gates list: ['rz(0.39269908169872414,0)', 'h(0)', 'cp(0.39269908169872414,0,1)', 'ry(1.5707963267948966,0)', 'z(0)']
+target probability: [0.6, 0.1, 0.2, 0.1]
+flag: ==
+gates list: ['x(0)']
+target probability: [[0, 0.2814]]
+flag: >
+Exploring.......................
+-------------------- Unsat Constraint! --------------------
+Traceback (most recent call last):
+  File "/home/xiashangzhou/quantum_constraint_solver/QCS.py", line 42, in <module>
+    result, time, already_result = quantum_constraint_solver(num_qbits=options.qbit_num,
+  File "/home/xiashangzhou/quantum_constraint_solver/quantum_solver.py", line 208, in quantum_constraint_solver
+    raise ValueError
+ValueError
