@@ -1,0 +1,23 @@
+Quantum Constraint Solver with dreal
+gates list: ['sx(0)']
+target probability: [[7, 0.2515], [1, 0.2314]]
+flag: >
+Exploring.......................
+Traceback (most recent call last):
+  File "/home/xiashangzhou/quantum_constraint_solver/QCS.py", line 40, in <module>
+    result, time, already_result = quantum_constraint_solver(num_qbits=options.qbit_num,
+  File "/home/xiashangzhou/quantum_constraint_solver/quantum_solver.py", line 175, in quantum_constraint_solver
+    result, time_full = circuit.prove(overapproximation=False, matrix_method= matrix_method)
+  File "/home/xiashangzhou/quantum_constraint_solver/symqv/models/circuit.py", line 95, in prove
+    return self._prove_state_model(dump_smt_encoding,
+  File "/home/xiashangzhou/quantum_constraint_solver/symqv/models/circuit.py", line 348, in _prove_state_model
+    result = subprocess.run(command, capture_output=True, timeout=5000)
+  File "/home/xiashangzhou/miniconda/envs/quantum_concolic/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/home/xiashangzhou/miniconda/envs/quantum_concolic/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/home/xiashangzhou/miniconda/envs/quantum_concolic/lib/python3.9/subprocess.py", line 1996, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/home/xiashangzhou/miniconda/envs/quantum_concolic/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/opt/dreal/4.21.06.2/bin/dreal', '--precision', '0.005', '/tmp/tmpi8nrytbr.smt2']' timed out after 5000 seconds
