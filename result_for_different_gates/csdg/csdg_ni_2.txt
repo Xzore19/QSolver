@@ -1,0 +1,15 @@
+Quantum Constraint Solver with dreal
+gates list: ['csdg(1,0)']
+target probability: [[1], [1], ['1']]
+flag: not_in
+Exploring.......................
+Genrated time: 0.014261007308959961
+Genrated time: 0.02501368522644043
+Genrated time: 0.02823328971862793
+Genrated time: 0.03487110137939453
+Genrated time: 0.029012441635131836
+Genrated time: 0.034638404846191406
+Genrated time: 0.021855592727661133
+Genrated time: 0.03181815147399902
+Genrated time: 0.0222780704498291
+Genrated time: 0.021451234817504883
