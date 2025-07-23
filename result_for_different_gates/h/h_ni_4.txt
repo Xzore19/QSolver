@@ -1,0 +1,15 @@
+Quantum Constraint Solver with dreal
+gates list: ['h(2)']
+target probability: [[1], [1], ['0']]
+flag: not_in
+Exploring.......................
+Genrated time: 0.20672106742858887
+Genrated time: 0.20783305168151855
+Genrated time: 1.8468892574310303
+Genrated time: 0.22583723068237305
+Genrated time: 0.22675466537475586
+Genrated time: 0.23412847518920898
+Genrated time: 0.23993921279907227
+Genrated time: 0.23946237564086914
+Genrated time: 0.6670236587524414
+Genrated time: 0.7628283500671387
