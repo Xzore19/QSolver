@@ -1,0 +1,23 @@
+Quantum Constraint Solver with dreal
+gates list: ['cz(0,2)', 'cry(0.39269908169872414,0,2)', 'cry(0.39269908169872414,0,2)', 'cz(1,2)', 'cp(1.5707963267948966,1,0)', 'tdg(1)', 'x(2)', 'crx(0.7853981633974483,0,1)', 'cz(0,2)', 'cry(0.7853981633974483,2,0)', 'z(1)', 'swap(1,0)', 'cry(0.7853981633974483,0,2)', 'ry(0.7853981633974483,0)', 'rz(1.5707963267948966,0)', 'crx(0.39269908169872414,2,0)', 'p(0.7853981633974483,1)', 'cswap(2,1,0)', 'rx(1.5707963267948966,1)', 'p(1.5707963267948966,2)']
+target probability: [[7, 0.1644], [3, 0.1793]]
+flag: <
+Exploring.......................
+Traceback (most recent call last):
+  File "/home/xiashangzhou/quantum_constraint_solver/QCS.py", line 40, in <module>
+    result, time, already_result = quantum_constraint_solver(num_qbits=options.qbit_num,
+  File "/home/xiashangzhou/quantum_constraint_solver/quantum_solver.py", line 185, in quantum_constraint_solver
+    result, time_full = circuit.prove(overapproximation=False, matrix_method= matrix_method)
+  File "/home/xiashangzhou/quantum_constraint_solver/symqv/models/circuit.py", line 95, in prove
+    return self._prove_state_model(dump_smt_encoding,
+  File "/home/xiashangzhou/quantum_constraint_solver/symqv/models/circuit.py", line 348, in _prove_state_model
+    result = subprocess.run(command, capture_output=True, timeout=1000)
+  File "/home/xiashangzhou/miniconda/envs/quantum_concolic/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/home/xiashangzhou/miniconda/envs/quantum_concolic/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/home/xiashangzhou/miniconda/envs/quantum_concolic/lib/python3.9/subprocess.py", line 1996, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/home/xiashangzhou/miniconda/envs/quantum_concolic/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/opt/dreal/4.21.06.2/bin/dreal', '--precision', '0.05', '/tmp/tmp_3z5hene.smt2']' timed out after 1000 seconds
