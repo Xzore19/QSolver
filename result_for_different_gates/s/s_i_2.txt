@@ -1,0 +1,15 @@
+Quantum Constraint Solver with dreal
+gates list: ['s(1)']
+target probability: [[0], [0], ['0']]
+flag: in
+Exploring.......................
+Genrated time: 0.01845717430114746
+Genrated time: 0.02261829376220703
+Genrated time: 0.03269791603088379
+Genrated time: 0.03098917007446289
+Genrated time: 0.02689361572265625
+Genrated time: 0.02965378761291504
+Genrated time: 0.020220518112182617
+Genrated time: 0.022899627685546875
+Genrated time: 0.032093048095703125
+Genrated time: 0.039890289306640625
