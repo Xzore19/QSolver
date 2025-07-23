@@ -1,0 +1,3 @@
+gates : [x(1)]
+target_prob : [[0, 1], [0, 1], ['01']]
+flag : "in"

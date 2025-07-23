@@ -1,0 +1,3 @@
+gates : [x(2)]
+target_prob : [[6, 0.6308]]
+flag : ">"
