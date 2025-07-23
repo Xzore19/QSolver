@@ -1,0 +1,3 @@
+gates : [iswap(2, 1)]
+target_prob : [[15, 0.6309]]
+flag : ">"

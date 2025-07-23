@@ -1,0 +1,3 @@
+gates : [h(1)]
+target_prob : [[1, 2], [1, 2], ['00', '01']]
+flag : "not_in"

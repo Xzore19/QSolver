@@ -1,0 +1,3 @@
+gates : [csx(1, 0)]
+target_prob : [[0, 1, 2], [0, 1, 2], ['001']]
+flag : "not_in"

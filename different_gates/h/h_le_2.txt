@@ -1,0 +1,3 @@
+gates : [h(1)]
+target_prob : [[3, 0.4982]]
+flag : "<"

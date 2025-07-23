@@ -1,0 +1,3 @@
+gates : [cz(1, 3)]
+target_prob : [[3], [3], ['0']]
+flag : "not_in"

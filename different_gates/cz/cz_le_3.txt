@@ -1,0 +1,3 @@
+gates : [cz(1, 2)]
+target_prob : [[3, 0.4878]]
+flag : "<"

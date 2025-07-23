@@ -1,0 +1,3 @@
+gates : [iswap(2, 1)]
+target_prob : [[0, 1, 2], [0, 1, 2], ['111', '101']]
+flag : "in"
