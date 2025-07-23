@@ -36,11 +36,12 @@ Alternatively, make the shell script `install.sh` executable and run it:
 
 ## Examples for QSolver
 
-    python QCS.py -q #qubit_num -r #max_result_num -m #method #filename
+    python QCS.py -q #qubit_num -r #max_result_num -a #assertion -m #method #filename
 
     - #qubit_num : the number of qubits in the target program
     - #max_result_num: the maximum number of dReal solver output results (default=10)
-    - #method: generate SMT for each gate(-s) or for combinational gate(-m) (default="m")
+    - #assertion: build assertion for results or not", default=True
+    - #method: generate SMT for each gate(-s)(todo) o for combinational gate(-m) (default="m")
     - #filename : target filename
 
     python run_different_gate.py
